@@ -1,35 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
+    <title>Profile card component</title>
+  </head>
+  <body>
+    <main>
+      <section class="section-hero">
+        <div class="container-card">
+          <div class="card-img-box">
+            <img
+              class="card-img"
+              src="images/bg-pattern-card.svg"
+              alt="Blue bubble pattern"
+            />
+          </div>
+          <div class="card-profil-box">
+            <div class="profil-img-box">
+              <img
+                class="profil-img"
+                src="images/image-victor.jpg"
+                alt="Victor Crest profil"
+              />
+            </div>
+            <div class="profil-info-box">
+              <div class="name-box">
+                <h1 class="name-and-stats">Victor Crest</h1>
+              </div>
+              <span class="profil-age">26</span>
+            </div>
+            <h2 class="city">London</h2>
+          </div>
+          <div class="card-stats-box">
+            <div class="stats-box">
+              <p class="name-and-stats stats">80K</p>
+              <h3 class="stats-description">Followers</h3>
+            </div>
+            <div class="stats-box">
+              <p class="name-and-stats stats">803K</p>
+              <h3 class="stats-description">Likes</h3>
+            </div>
+            <div class="stats-box">
+              <p class="name-and-stats stats">1.4K</p>
+              <h3 class="stats-description">Photos</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Workablery Design</a>.
+    </div> -->
+  </body>
 </html>

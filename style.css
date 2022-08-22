@@ -1,0 +1,136 @@
+/* ********** */
+/* GENERAL SETTINGS */
+/* ********** */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+  html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #19A1AE;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+/* ********** */
+/* GENERAL REUSABLE COMPONENTS */
+/* ********** */
+
+.name-and-stats {
+    color: #2E3349;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+/* ********** */
+/* HERO SECTION */
+/* ********** */
+
+.section-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+
+}
+
+.container-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    max-width: 32.6rem;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.card-img-box {
+    max-height: 14rem;
+}
+
+.card-img {
+    display: block;
+    width: 100%;
+}
+
+.card-profil-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.profil-img-box {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.profil-img {
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: -5.3rem;
+    border: 5px solid #FFFFFF;
+}
+
+.profil-info-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 7.2rem;
+}
+
+.name-box {
+    display: flex;
+    align-items: flex-end;
+    min-height: 3rem;
+}
+
+.profil-age {
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #6B7082;
+    margin-left: 0.85rem;
+
+}
+
+.city {
+    padding-top: 0.8rem;
+    padding-bottom: 2.8rem;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #6B7082;
+}
+
+.card-stats-box {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #E8E9EC;
+    padding: 2.4rem 4.6rem;
+
+}
+
+.stats-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.stats {
+    text-align: center;
+}
+
+.stats-description{
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.15rem;
+    color: #6B7082;
+    text-align: center;
+    padding-top: 0.5rem;
+}
